@@ -2,5 +2,5 @@ CC = g++
 std = -std=c++11
 opencv = `pkg-config --cflags --libs opencv`
 
-salt_img:salt_pepper.cpp
-	$(CC) $(std) -o salt_img salt_pepper.cpp $(opencv)
+read_vid:read_video.cpp
+	$(CC) $(std) -o read_vid read_video.cpp $(opencv)
