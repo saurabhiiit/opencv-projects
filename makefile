@@ -2,5 +2,5 @@ CC = g++
 std = -std=c++11
 opencv = `pkg-config --cflags --libs opencv`
 
-disp_img:display_img.cpp
-	$(CC) $(std) -o disp_img display_img.cpp $(opencv)
+salt_img:salt_pepper.cpp
+	$(CC) $(std) -o salt_img salt_pepper.cpp $(opencv)
